@@ -6,7 +6,7 @@ http://ghs.rf.gd/login.php
 
   ### [+] Video +
 <center>
-[![Watch the video](1.jpj)](Awesome.mp4)
+[![asciicast(1.jpj)](Awesome.mp4)
 </center>
 
 
