@@ -6,7 +6,7 @@ http://ghs.rf.gd/login.php
 
   ### [+] Video +
 <center>
-<video width="300" height="300" src="Awesome.mp4">
+[![Watch the video](1.jpj)](Awesome.mp4)
 </center>
 
 
