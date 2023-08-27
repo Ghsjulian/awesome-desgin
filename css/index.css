@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 100%;
+}
+
+body {
+    background: #ebebeb;
+    margin: 0.2rem;
+    align-items: center;
+    place-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    margin: 5% auto;
+    padding: 0.5rem;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+.main-container button {
+    outline: none;
+    margin: 0.7rem auto;
+    font-size: 16px;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 0.2px solid rgb(24, 216, 255);
+    font-weight: 600;
+    font-size: 17px;
+}
+.main-container #loginbtn {
+    background: rgb(0, 50, 43);
+    color: #fff;
+}
+.main-container #signupbtn {
+    background: rgb(0, 119, 200);
+    color: #fff;
+}
+#desgin {
+    color: #006e5c;
+    font-family: Sans-Serif;
+    margin: 5rem auto;
+    text-align: center;
+}
+.main {
+    position: relative;
+    margin: 0.5rem auto;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    display: flex;
+}
+.container {
+    display: none;
+    background: #fff;
+    margin: 50% 5%;
+    top: 0;
+    border-radius: 10px;
+    box-shadow: 1px -1px 2px rgba(79, 197, 255, 0.471),
+        -2px 1px 2px rgba(79, 197, 255, 0.471);
+    padding: 0.5rem;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    animation: open 0.5s linear;
+}
+.container .logo {
+    color: rgb(24, 216, 255);
+    font-family: Sans-Serif;
+}
+.container #login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in;
+}
+.container #login-form input {
+    outline: none;
+    margin: 0.7rem auto;
+    font-size: 16px;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    border: 0.2px solid rgb(24, 216, 255);
+}
+#login-form input::placeholder {
+    color: rgb(24, 216, 255);
+}
+.container #login-form #login-btn {
+    outline: none;
+    margin: 0.7rem auto;
+    align-items: center;
+    padding: 0.5rem 0.7rem;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 800;
+    border: 0.2px solid rgb(24, 216, 255);
+    background: rgb(24, 216, 255);
+    transition: 0.3s ease-out;
+}
+.container #login-form #login-btn:hover {
+    background: rgb(0, 73, 64);
+    transition: 0.3s ease-out;
+}
+#login-form #link {
+    display: flex;
+    gap: 0.3rem;
+    color: rgb(14, 92, 0);
+    font-family: Sans-Serif;
+    margin: 0.3rem;
+}
+#link a {
+    text-decoration: none;
+    color: rgb(0, 55, 232);
+    font-weight: 800;
+}
+.container #cross-login,
+#cross-signup {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #f00;
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 17px;
+    font-family: Sans-Serif;
+}
+
+/*=========CREATING ANIMATION==========*/
+@keyframes open {
+    0% {
+        transform: scale(0, 0);
+    }
+    25% {
+        transform: scale(0.5, 0.5);
+    }
+    50% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+/*========RESPONSIVE STYLING==========*/
+
+@media (max-width: 1600px) {
+    .container {
+        width: 40%;
+    }
+    .main-container {
+        width: 40%;
+    }
+}
+@media (max-width: 1400px) {
+    .container {
+        width: 40%;
+    }
+    .main-container {
+        width: 40%;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        width: 50%;
+    }
+    .main-container {
+        width: 50%;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .main-container {
+        width: 90%;
+    }
+}
