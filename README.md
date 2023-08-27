@@ -2,11 +2,11 @@
 ### Ghs Julian 
 
 Watch Here Live Demo :
-http://ghs.rf.gd/login.php
+https://ghsjulian.github.io/awesome-desgin/
 
   ### [+] Video +
 <center>
-[![asciicast(1.jpj)](Awesome.mp4)
+[![asciicast(./1.jpj)](./Awesome.mp4)
 </center>
 
 
